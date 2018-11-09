@@ -79,13 +79,19 @@ export default class Example extends React.Component {
                   </Link>
                 </li>
                 <li>
-                  <a href="#news">Services</a>
+                  <Link to="/services" className="">
+                    Services
+                  </Link>
                 </li>
                 <li>
-                  <a href="#contact">Terms</a>
+                  <Link to="/terms" className="">
+                    Terms
+                  </Link>
                 </li>
                 <li>
-                  <a href="#about">Employment</a>
+                  <Link to="/employment" className="active">
+                    Employment
+                  </Link>
                 </li>
               </ul>
             </Nav>
